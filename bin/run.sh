@@ -6,6 +6,7 @@ TEST_DIR=`realpath $TEST_DIR`
 for peg in `ls ${TEST_DIR}/pass*.nez`; do
     path=${peg%.*}
     input="$path.txt"
-    echo "running " $peg
+    echo "running" $*  $peg
+    $* $peg
     # echo $input
 done

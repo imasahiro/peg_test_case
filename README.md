@@ -32,5 +32,7 @@ Generated test case:
 How to run test cases
 ---
 ```
-$ sh bin/run.sh
+$ sh bin/run.sh java -jar nez.jar vm -p
+running  java -jar nez.jar vm -p /Users/masa/src/nez/moz/test_vm/test/pass001_char.nez
+....
 ```
